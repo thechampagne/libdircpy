@@ -1,0 +1,19 @@
+[package]
+name = "dircpy"
+version = "1.0.0"
+description = "A library to recursively copy directories"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libdircpy"
+repository = "https://github.com/thechampagne/libdircpy"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "dircpy"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+dircpy = "0.3.13"
